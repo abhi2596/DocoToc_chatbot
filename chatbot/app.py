@@ -1,8 +1,8 @@
 import streamlit as st
 from openai import OpenAI
 
-with st.sidebar:
-    st.image("DocoToc_logo.jpg", caption="DocoToc Logo", use_column_width=True)
+# with st.sidebar:
+#     st.image("DocoToc_logo.jpg", caption="DocoToc Logo", use_column_width=True)
 st.title("DocoToc")
 st.subheader("Natural Language Interface to EHR systems")
 
