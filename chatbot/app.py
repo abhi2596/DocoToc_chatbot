@@ -1,7 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 
-st.logo("../DocoTok_logo.jpg")
+st.logo("DocoTok_logo.jpg")
 st.title("DocoToc")
 st.subheader("Natural Language Interface to EHR systems")
 
