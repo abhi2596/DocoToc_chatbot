@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 # st.logo("chatbot/DocoToc_logo.jpg")
-st.image("DocoToc_chatbot/DocoToc_horizontal.jpg")
+st.image("chatbot/DocoToc_horizontal.jpg")
 # st.title("DocoToc")
 # st.subheader("Natural Language Interface to EHR systems")
 
