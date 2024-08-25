@@ -1,10 +1,10 @@
 import streamlit as st
 from openai import OpenAI
 
-# st.logo("DocoToc_logo.jpg")
-# st.image("../DocoToc_horizontal.jpg")
-st.title("DocoToc")
-st.subheader("Natural Language Interface to EHR systems")
+# st.logo("chatbot/DocoToc_logo.jpg")
+st.image("../DocoToc_horizontal.jpg")
+# st.title("DocoToc")
+# st.subheader("Natural Language Interface to EHR systems")
 
 # Set OpenAI API key from Streamlit secrets
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
